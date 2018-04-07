@@ -1,11 +1,9 @@
 package com.feisher.akotlin.event;
 
-import java.io.Serializable;
-
 /**
  * Created by Administrator on 2018/4/6 0006.
  */
-public class Test implements Serializable {
+public class Test{
     public String name;
     public int age;
 
@@ -13,4 +11,6 @@ public class Test implements Serializable {
         this.name = name;
         this.age = age;
     }
+
+
 }
